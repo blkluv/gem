@@ -46,6 +46,6 @@ describe("Comment", () => {
         }
       }
     });
-    expect(wrapper.isVueInstance()).toBeTruthy();
+    expect(wrapper.vm).toBeTruthy();
   });
 });
